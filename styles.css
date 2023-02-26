@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Unbounded', cursive;
+}
+
+body {
+
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-size: 100vw 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);
+}
+
+
+
+.container {
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    width: 370px;
+    height: 614px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.tittle{
+    border-bottom: 2px solid #fff;
+    width: 365px;
+    position: relative;
+    top: -70px;
+}
+
+h1 {
+    color:#fff;
+
+}
+
+
+
+.circle {
+
+    width: 254px;
+    height: 254px;
+    border-radius: 50%;
+}
+
+.texts {
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:#fff;
+}
+
+h2 {
+    font-size: 25px;
+    
+    
+}
+
+.numbers {
+    display: flex;
+    margin: 10px;
+    font-size: 25px;
+    
+
+}
+
+.circle-two {
+    display: flex;
+    margin-top: 30px;
+}
+
+.circle-button {
+    border-radius: 50%;
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    background-color: #f43b47 ;
+}
+.circle-button-two {
+    border-radius: 50%;
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    background-color:  #0ba360 ;
+}
+
+.cancel {
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #f43b47 ;
+    color:#fff;
+}
+
+
+
+
+.start{
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    background-color:  #0ba360 ;
+    color:#fff;
+}
